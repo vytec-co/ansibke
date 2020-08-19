@@ -1,0 +1,30 @@
+sudo apt install -y nodejs npm
+    8  sudo npm install npm --global
+    9  sudo pip install requests==2.14.2
+   10  which pipo
+   11  which pip
+   12  sudo apt -y install python-pip
+   13  which pipo
+   14  sudo apt -y install python-pip git pwgen vim
+   15  sudo pip install requests==2.14.2
+   16  git clone --depth 50 https://github.com/ansible/awx.git
+   17  cd awx/installer/
+   18  pwgen -N 1 -s 30
+   19  ls -rtl
+   20  pwd
+   21  cp inventory inventory.orig
+   22  >inventory
+   23  vi inventory
+   24  pwgen -N 1 -s 30
+   25  vi inventory
+   26  clear
+   27  pip install docker
+   28  pip install docker-compose
+   29  which python
+   30  python -version
+   31  python --version
+   32  grep -r ansible_python_interpreter *
+   33  clear
+   34  ls -lrt
+   35  ansible-playbook -i inventory install.yml -e "ansible_python_interpreter=/usr/bin/python"
+   36  docker ps
